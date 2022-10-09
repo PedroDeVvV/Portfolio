@@ -1,0 +1,167 @@
+body {
+    background-image: url(../../img/bg.gif);
+    background-repeat: no-repeat;
+    background-color: #2a363b;
+    background-size: cover;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+}
+
+main {
+    max-width: 980px;
+    width: 90%;
+
+    margin: 32px auto;
+    display: flex;
+    flex-direction: column;
+    /*somente display: grid; já resolveria*/
+
+    gap: 24px;
+    /*espaçamento que só funciona dentro do display: flex;*/
+    margin-top: 32px;
+    /* border: 4px solid red; */
+
+}
+
+section {
+    background-image: linear-gradient(90deg, #00ccff, #00ff88);
+    border-radius: 10px;
+    padding-top: 4px;
+    text-shadow: 2px 2px black;
+}
+
+section div {
+    background-color: #2a363b;
+    padding: 15px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+section {
+    animation: fromTop .3s backwards;
+    animation-delay: .1s;
+}
+
+ section div {
+    animation: fromTop .7s backwards;
+    animation-delay: .5s;
+}
+
+h2 {
+    text-align: center;
+    padding: 15px 15px;
+}
+
+nav {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    background-color: #2a363b;
+    border-radius: 8px;
+    border: solid 3px rgb(0, 0, 0);
+}
+
+nav li {
+    background-color: #2a363b;
+    padding: 8px;
+    border-radius: 4px;
+    /* border: solid 1px white; */
+}
+
+nav a:link {
+    background-color: #2a363b;
+    color: rgb(255, 255, 255);
+    /* padding: 10px 10px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(255, 255, 255);
+    padding: 0px 9px;
+    transition: all 1s;
+    /* color: black;
+    text-shadow: 2px 2px white; */
+}
+/* 
+nav li:hover {
+    background-color: #ffffff;
+    transition: all 1s;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: black;
+    text-shadow: 2px 2px white;
+} */
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+}
+
+.hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hobbies img {
+    border-radius: 30px;
+    width: 25%;
+    /* border: solid 3px rgb(0, 255, 234); */
+}
+
+header div {
+    animation: fromTop .7s backwards;
+    animation-delay: .3s;
+}
+
+main section {
+    animation: fromBottom .7s backwards;
+}
+
+main section:nth-child(1) {
+    animation-delay: .3s;
+}
+
+
+@keyframes fromTop
+
+/*nome da animação*/
+    {
+    from {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fromBottom {
+    from {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,167 @@
+body {
+    background-image: url(../../img/bg.gif);
+    background-repeat: no-repeat;
+    background-color: #2a363b;
+    background-size: cover;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+}
+
+nav {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    background-color: #2a363b;
+    border-radius: 8px;
+    border: solid 3px rgb(0, 0, 0);
+}
+
+nav li {
+    background-color: #2a363b;
+    padding: 8px;
+    border-radius: 4px;
+    /* border: solid 1px white; */
+}
+
+nav a:link {
+    background-color: #2a363b;
+    color: rgb(255, 255, 255);
+    /* padding: 10px 10px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(255, 255, 255);
+    padding: 0px 9px;
+    transition: all 1s;
+    /* color: black;
+    text-shadow: 2px 2px white; */
+}
+/* 
+nav li:hover {
+    background-color: #ffffff;
+    transition: all 1s;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: black;
+    text-shadow: 2px 2px white;
+} */
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 2px 2px black;
+}
+
+
+main {
+    max-width: 680px; /*tamanho maximo da div*/
+    width: 90%;
+
+    margin: 32px auto; /*margem de cima e de baixo*/
+    display: flex;
+    flex-direction: column;
+    /*somente display: grid; já resolveria*/
+
+    gap: 24px;
+    /*espaçamento que só funciona dentro do display: flex;*/
+    margin-top: 32px;
+    /* border: 4px solid red; */
+
+}
+section {
+    background-image: linear-gradient(90deg, #00ccff, #00ff88);
+    border-radius: 10px;
+    padding-top: 4px;
+    text-shadow: 2px 2px black;
+    line-height: 23px;
+    animation: fromTop .3s backwards;
+    animation-delay: .1s;
+}
+
+section div {
+    background-color: #2a363b;
+    padding: 15px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    animation: fromTop .7s backwards;
+    animation-delay: .5s;
+}
+
+.social-list {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+.social-list svg {
+    border: solid 1px gray;
+    border-radius: 50%;
+}
+
+.github-svg:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.linkedin-svg:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.whatsapp-svg:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+h2{
+    text-align: center;
+    padding: 12px;
+}
+
+main section {
+    animation-delay: .7s;
+    animation: fromBottom .9s backwards;
+}
+    
+
+
+@keyframes fromTop
+
+/*nome da animação*/
+    {
+    from {
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fromBottom {
+    from {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
