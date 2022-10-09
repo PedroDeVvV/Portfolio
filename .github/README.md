@@ -16,5 +16,5 @@ Portfólio construído com o objetivo de iniciar na programação web e aprimora
 
 ## 📞 Contato
 
-pedrohgs2004@gmail.com <br>
+E-mail: pedrohgs2004@gmail.com <br>
 Linkedin: https://www.linkedin.com/in/pedro-henrique-g-silva-a2100a23a/?originalSubdomain=br
