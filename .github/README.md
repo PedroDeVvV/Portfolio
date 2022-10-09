@@ -1,8 +1,8 @@
-# NLW eSports - Trilha Explorer
+# Portfólio Pessoal
 
 ![preview](./pedrodevvv.github.io_Portfolio_.png).png)
 
-Projeto construído no evento Next Level Week da Rockeseat, onde eu pude aprimorar muito minhas habilidades em CSS.
+Portfólio constrído com o objetivo de iniciar na programação web e aprimorar os conhecimento, e também explicando um pouco de mim neste projeto.
 
 🔗[Clique aqui para acessar](https://pedrodevvv.github.io/Portfolio/)
 
