@@ -1,6 +1,6 @@
 # Portfólio Pessoal
 
-![preview](./pedrodevvv.github.io_Portfolio_.png).png)
+![preview](./pedrodevvv.github.io_Portfolio_.png)
 
 Portfólio construído com o objetivo de iniciar na programação web e aprimorar os conhecimento, e também explicando um pouco de mim neste projeto.
 
